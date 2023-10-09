@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>This page scans the user input</title>
+</head>
+<body>
+    <form action= "updateInfo.php" method="post">
+        <table>
+            <tr>
+                <td>First Name (Max 20 Characters):</td>
+                <td><input type="text" id="fname" name="fname" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td>Last Name (Max 20 Characters):</td>
+                <td><input type="text" id="lname" name="lname" maxlength="20"></td>
+                
+            </tr>
+            <tr>
+                <td>Phone number (xxx-xxx-xxxx):</td>
+                <td><input type="text" id="phone" name="phone" maxlength="12"></td>
+            </tr>
+            <tr> 
+                <td>Email (Max 30 Characters):</td>
+                <td><input type="text" id="email" name="email" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td align="right"><input type="submit" value="Send"></td>
+                <td align="left"><input type="reset"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
